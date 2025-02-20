@@ -1,0 +1,11 @@
+$primary-color: #E04141;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heder_top{
+    display: flex-center;
+    font-size: 40px;
+}
